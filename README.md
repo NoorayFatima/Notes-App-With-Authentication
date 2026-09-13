@@ -1,8 +1,8 @@
-# 📝 Notes App — Authenticated Full-Stack MERN App
+# 📝 Notes App: Authenticated Full-Stack MERN App
 
 A full-stack notes app built across an internship: a REST API on **Node.js,
 Express, and MongoDB**, a **React** frontend, and now a full **JWT-based
-authentication system** — signup, login, logout, and per-user private notes.
+authentication system** including signup, login, logout, and per-user private notes.
 
 ## Project structure
 
@@ -178,13 +178,3 @@ To build a production bundle: `npm run build` (output in `frontend/dist`).
   field `select: false`.
 - Change `JWT_SECRET` for any real deployment — don't reuse the example
   value or commit a real one to the repo.
-
-## Pushing to GitHub
-
-From the project root (this folder is already a git repo):
-
-```bash
-git add .
-git commit -m "Add JWT authentication (signup, login, logout, protected notes)"
-git push origin main
-```
